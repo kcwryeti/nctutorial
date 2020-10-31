@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using nctutorial.Data;
+
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace nctutorial.Data
@@ -28,8 +29,6 @@ namespace nctutorial.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            
-            
         }
     }
 }
